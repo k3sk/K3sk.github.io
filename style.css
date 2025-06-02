@@ -30,22 +30,6 @@ body {
     background-color: var(--background);
     color: var(--text);
 }
-
-/* Header styles */
-header {
-    /* Styling for the header section, including background and positioning */
-    background-color: rgba(30, 41, 59, 0.8);
-    backdrop-filter: blur(12px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    padding: var(--spacing-sm) var(--spacing-md);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 100;
-    height: 64px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-}
-
 nav {
     /* Navigation bar styling for layout and alignment */
     max-width: 1200px;
